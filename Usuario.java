@@ -51,4 +51,8 @@ Class Usuario{
 	public float getSaldo(){
 		return saldo;
 	}
+
+	public bool equals(Usuario u){
+		return cedula == u.getCedula();
+	}
 }
