@@ -6,7 +6,8 @@ Class Usuario{
 	private int edad;
 	private int cantidadDeHijos;
 	private float saldo;
-
+	
+	public Usuario(int c){cedula = c; saldo = 0;}
 
 	public void setCedula(int c){
 		cedula = c;

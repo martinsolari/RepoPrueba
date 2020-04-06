@@ -1,0 +1,14 @@
+import Usuario;
+class FuncionesUsuario{
+
+	public float calculaImpuesto(Usuario x){
+
+	switch(x.getEdad()){
+	
+	case ()
+	
+	}
+	
+	}
+
+}
