@@ -6,7 +6,7 @@ Class Usuario{
 	private int edad;
 	private int cantidadDeHijos;
 	private float saldo;
-	
+
 	public Usuario(int c){cedula = c; saldo = 0;}
 
 	public void setCedula(int c){
@@ -53,7 +53,9 @@ Class Usuario{
 		return saldo;
 	}
 
-	public bool equals(Usuario u){
-		return cedula == u.getCedula();
+	@Override
+	public bool equals(Object o){
+		if(p==null) return false;
+		return cedula == (Usuario)o.getCedula();
 	}
 }
